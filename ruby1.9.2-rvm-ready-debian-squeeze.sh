@@ -12,6 +12,10 @@ echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >> .bashr
 #IF YOU  RAN THIS INSTALL AS ROOT :
 #echo [[ -s "/usr/local/rvm/scripts/rvm" ]] && . "/usr/local/rvm/scripts/rvm" >> .bashrc
 
+
+# try to reload shell env
+source .
+
 rvm package install zlib openssl
 
 rvm install 1.9.2
