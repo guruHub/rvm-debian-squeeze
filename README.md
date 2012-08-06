@@ -31,7 +31,7 @@ Remember to add user to sudoers
 
 ### Step 2 : Install !
 
-    bash < <(curl -s -k -B https://raw.github.com/khemael/ruby1.9.2-rvm-ready-debian-squeeze/master/ruby1.9.2-rvm-ready-debian-squeeze.sh)
+    bash < <(curl -s -k -B https://raw.github.com/guruHub/ruby1.9.2-rvm-ready-debian-squeeze/master/ruby1.9.2-rvm-ready-debian-squeeze.sh)
 
 You'll be asked for sudo password at the beginning of the script, in order to install system need dependancies.
 
