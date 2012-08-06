@@ -13,7 +13,7 @@ echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >> .bashr
 #echo [[ -s "/usr/local/rvm/scripts/rvm" ]] && . "/usr/local/rvm/scripts/rvm" >> .bashrc
 
 # try to reload shell env
-source .
+source ~/.bashrc
 
 rvm package install zlib openssl
 
