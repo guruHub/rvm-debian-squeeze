@@ -2,6 +2,7 @@ Ruby 1.9.2 rvm environment installer for Debian "Squeeze" 6
 ===========================================================
 
 2011-12-21 - Colin Brigato
+2012-08-06 - Martin Loy
 
 Introduction
 ------------
@@ -31,7 +32,7 @@ Remember to add user to sudoers
 
 ### Step 2 : Install !
 
-    bash < <(curl -s -k -Bhttps://github.com/guruHub/rvm-debian-squeeze/raw/master/ruby1.9.2-rvm-ready-debian-squeeze.sh)
+    bash < <(curl -s -k -B https://github.com/guruHub/rvm-debian-squeeze/raw/master/ruby1.9.2-rvm-ready-debian-squeeze.sh)
 
 You'll be asked for sudo password at the beginning of the script, in order to install system need dependancies.
 
