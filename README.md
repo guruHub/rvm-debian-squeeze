@@ -20,6 +20,15 @@ This script _**do**_ works when under root, however :
 * rvm is known not to be flawless when installed under root
 * you won't be able to have separated ruby environment for specific users
 
+
+### Step 1.1 : Install dependencies
+
+    aptitude install curl sudo
+
+Remember to add user to sudoers
+
+    usermod -a -G sudo {user}
+
 ### Step 2 : Install !
 
     bash < <(curl -s -k -B https://raw.github.com/khemael/ruby1.9.2-rvm-ready-debian-squeeze/master/ruby1.9.2-rvm-ready-debian-squeeze.sh)
