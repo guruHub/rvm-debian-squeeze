@@ -1,3 +1,29 @@
+BIG WARNING! :) 
+===========================================================
+All this stuff is deprecated, now it's as easy as installing rvm and then $ rvm autolibs enable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Just for legacy purpouses...
+
 Ruby 1.9.2 rvm environment installer for Debian "Squeeze" 6
 ===========================================================
 
